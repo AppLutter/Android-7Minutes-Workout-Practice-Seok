@@ -6,9 +6,9 @@
             android:shape="ring"
             android:thicknessRatio="50.0"
             android:useLevel="true">
+            <solid android:color = "@color/colorAccent"/>
 
         </shape>
 
-        <solid android:color = "@color/colorAccent"/>
     </item>
 </layer-list>
