@@ -73,6 +73,31 @@
         </LinearLayout>
     </FrameLayout>
 
+    <TextView
+        android:id="@+id/tvUpcomingLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음 운동: "
+        android:textColor="@color/colorPrimary"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/tvUpComingExerciseName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/flRestView" />
+
+    <TextView
+        android:id="@+id/tvUpComingExerciseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvUpcomingLabel" />
+
     <ImageView
         android:id="@+id/ivImage"
         android:layout_width="match_parent"
