@@ -48,7 +48,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:background="@drawable/circular_progress_grey"
+            android:background="@drawable/circular_progress_gray"
             android:indeterminate="false"
             android:max="10"
             android:progress="100"
@@ -129,7 +129,6 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/item_circular_color_accent_border"
         android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvExerciseName">
@@ -141,7 +140,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_gravity="center"
-            android:background="@drawable/circular_progress_grey"
+            android:background="@drawable/circular_progress_gray"
             android:indeterminate="false"
             android:max="30"
             android:progress="300"
@@ -165,4 +164,15 @@
                 android:textStyle="bold" />
         </LinearLayout>
     </FrameLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvExerciseStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/flExerciseView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
